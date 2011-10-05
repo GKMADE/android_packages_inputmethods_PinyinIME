@@ -1080,6 +1080,7 @@ public class PinyinIME extends InputMethodService {
         if (null != mCandidatesContainer && mCandidatesContainer.isShown()) {
             showCandidateWindow(false);
         }
+       setCandidatesViewShown(false)
     }
 
     private void updateIcon(int iconId) {
