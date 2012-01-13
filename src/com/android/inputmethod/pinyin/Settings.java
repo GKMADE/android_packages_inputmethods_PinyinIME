@@ -67,7 +67,7 @@ public class Settings {
     }
 
     private void initConfs() {
-        mKeySound = mSharedPref.getBoolean(ANDPY_CONFS_KEYSOUND_KEY, true);
+        mKeySound = mSharedPref.getBoolean(ANDPY_CONFS_KEYSOUND_KEY, false);
         mVibrate = mSharedPref.getBoolean(ANDPY_CONFS_VIBRATE_KEY, false);
         mPrediction = mSharedPref.getBoolean(ANDPY_CONFS_PREDICTION_KEY, true);
     }
